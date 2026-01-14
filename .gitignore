@@ -1,0 +1,24 @@
+# Build artifacts
+release/
+delivery/
+*.tar.gz
+
+# Logs
+build.log
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Node / other build outputs (excluded by design)
+node_modules/
+target/
+
+# OS / editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Temporary files
+*.tmp
+*.swp
