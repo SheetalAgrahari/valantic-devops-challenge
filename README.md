@@ -10,14 +10,14 @@ The goal is to show clean automation, reproducibility, and the ability to explai
 
 ## Repository Structure
 valantic-devops-challenge/
----- src/ # Sample source files (Python, shell)
-----scripts/
---------build_package.sh # Build & packaging script
-----VERSION # Project version
-----README.md # Documentation
-----release/ # Generated build artifacts
-----delivery/ # Simulated delivery location
-----build.log # Build log (ignored by Git)
+|-- src/
+|-- scripts/
+|   `-- build_package.sh
+|-- VERSION
+|-- README.md
+|-- release/
+|-- delivery/
+`-- build.log
 
 ---
 
@@ -79,3 +79,4 @@ This challenge demonstrates:
 - Structured Git usage
 - Repeatable and traceable builds
 - Clear documentation and design decisions
+
